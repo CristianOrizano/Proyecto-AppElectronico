@@ -4,7 +4,7 @@ import { Ciudad } from '../models/ciudad.model';
 import { Observable } from 'rxjs';
 
 
-const baseURL="http://localhost:8091/rest/Ciudad";
+const baseURL="https://decorous-control-production.up.railway.app/rest";
 
 @Injectable({
   providedIn: 'root'
