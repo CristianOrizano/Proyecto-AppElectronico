@@ -51,6 +51,8 @@ export class CrudAdminComponent implements OnInit{
   
   constructor(private admin:AdminService,private ciuda:CiudadService,private router:Router){
 
+    this.listarAdmin();
+    this.listarCiudad();
   }
   
   /*
@@ -163,11 +165,14 @@ export class CrudAdminComponent implements OnInit{
 
 
   ngOnInit(): void {
-    
-    this.listarAdmin();
-    
 
+ 
+ 
+     
   }
+
+
+
 
 
 
