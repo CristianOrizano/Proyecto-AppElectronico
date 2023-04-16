@@ -163,28 +163,11 @@ export class CrudAdminComponent implements OnInit{
 
 
   ngOnInit(): void {
-    this.listarCiudad();
+    
     this.listarAdmin();
     
-    /*this.dtOptions={
-     pagingType:'full_numbers',
-     
-     
-     language:{
-      url:"https://cdn.datatables.net/plug-ins/1.13.1/i18n/es-ES.json"
-     }
-    }; */
-     
+
   }
-
-
-  submitted = false;
-  
-  formsRegistra = new FormGroup({
-    'validaNombre': new FormControl('', [Validators.required]),
-   
-});
-
 
 
 

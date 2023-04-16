@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Admin } from '../models/admin.model';
 
 
-const baseURL="https://decorous-control-production.up.railway.app/rest";
+const baseURL="https://decorous-control-production.up.railway.app/restadm";
 
 @Injectable({
   providedIn: 'root'
